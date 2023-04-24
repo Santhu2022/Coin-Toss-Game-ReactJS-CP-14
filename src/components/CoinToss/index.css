@@ -1,0 +1,85 @@
+.main-bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.app-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  max-width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.app-name {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size-adjust: 32px;
+}
+@media screen and (min-width: 768px) {
+  .app-name {
+    font-size: 42px;
+  }
+}
+.heads-tails-text {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-top: 0;
+  font-weight: 500;
+}
+.toss-result-image {
+  width: 160px;
+}
+@media screen and (min-width: 768px){
+    .toss-result-image{
+        width: 200px;
+    }
+}
+.toss-button {
+  margin-top: 15px;
+  border: none;
+  padding: 10px 18px;
+  background-color: #f9d423;
+  border-radius: 8px;
+  color: #a35200;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.counts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+.counts-text {
+    font-family: 'Roboto';
+    color: #334155;
+    font-weight: 500;
+    font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+    .counts-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .counts-text{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+}
